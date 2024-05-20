@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div class="main">
+        <div class="score">
+            <div id="scorebox">Score : 0</div>
+            <div id="highScorebox">High Score : 0</div>
+        </div>
+        
+        <div id="board">
+        </div>
+        <div class="controlls">
+        <div class="control">
+            <button class="up" onclick="up()"><i class="fa-solid fa-chevron-up" style="color: #000000;"></i></button>
+        </div>
+        <div class="control2">
+            <button class="left" onclick="left()"><i class="fa-solid fa-chevron-left" style="color: #000000;"></i></button>
+            <button class="down" onclick="down()"><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></button>
+            <button class="right" onclick="right()"><i class="fa-solid fa-chevron-right" style="color: #000000;"></i></button>
+        </div>
+        </div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>

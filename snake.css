@@ -9,6 +9,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -49,5 +50,38 @@ font-size: 2rem;
     position: fixed;
     right: 5.4%;
 top: 16%;
-
+}
+.up,.down,.right,.left{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(71, 231, 71);
+}
+.controlls{
+    display: none !important;
+}
+@media (max-width:667px) {
+   
+        .controlls{
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .score{
+            display: flex;
+            width: 100%;
+            text-align: end;
+            justify-content: end;
+            flex-direction: column;
+            font-size: 1.5rem;
+        
+        }
+        #scorebox,#highScorebox{
+            padding-right: 20px;
+        margin: 5px;
+        }
+        
 }

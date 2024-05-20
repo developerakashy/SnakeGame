@@ -115,5 +115,30 @@ window.addEventListener('keydown',e=>{
             inputDir.y=0;
             break;
     }
+    
 
 })
+function up(){
+    console.log("up")
+    inputDir={x:0,y:1}
+    inputDir.x=0;
+    inputDir.y=-1;
+}
+function down(){
+    console.log("up")
+    inputDir={x:0,y:1}
+    inputDir.x=0;
+    inputDir.y=1;
+}
+function left(){
+    console.log("up")
+    inputDir={x:0,y:1}
+    inputDir.x=-1;
+    inputDir.y=0;
+}
+function right(){
+    console.log("up")
+    inputDir={x:0,y:1}
+    inputDir.x=1;
+    inputDir.y=0;
+}
